@@ -1,6 +1,6 @@
 {
   "name": "@khajegan/angular2-multiselect-dropdown",
-  "version": "17.0.0",
+  "version": "17.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +12,7 @@
     "build-package": "npm run build-sass && ng-packagr -p projects/angular2-multiselect-dropdown-lib/package.json",
     "github-pages": "ng build --prod --base-href /angular2-multiselect-dropdown/",
     "myScope": "cd projects/angular2-multiselect-dropdown-lib && sudo npm init --scope=@khajegan",
-    "myBuild": "cd projects/angular2-multiselect-dropdown-lib && sudo ng b --configuration production",
+    "myBuild": "cd projects/angular2-multiselect-dropdown-lib && sudo ng b --configuration production &&  sudo cp -r themes ../../dist/angular2-multiselect-dropdown-lib/",
     "myPublish": "cd dist/angular2-multiselect-dropdown-lib && npm publish --access public"
   },
   "private": true,

@@ -1,6 +1,7 @@
 {
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
   "name": "@khajegan/angular2-multiselect-dropdown",
-  "version": "17.0.0",
+  "version": "17.0.1",
   "license": "MIT",
   "author": "Amir Hossein Khajegan",
   "description": "Angular Multiselect dropdown component library for Angular version 14, 15, 16",
@@ -23,8 +24,8 @@
     "assets": [
       "README.md",
       "LICENSE",
-      "./themes/*.theme.scss",
-      "./themes/*.theme.css"
+      "themes/*.theme.scss",
+      "themes/*.theme.css"
     ],
     "dest": "../../dist"
   },
