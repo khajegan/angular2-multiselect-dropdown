@@ -1,6 +1,6 @@
 {
   "name": "@khajegan/angular2-multiselect-dropdown",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "license": "MIT",
   "author": "Amir Hossein Khajegan",
   "description": "Angular Multiselect dropdown component library for Angular version 14, 15, 16",
@@ -10,7 +10,8 @@
     "angular dropdown",
     "angular 14",
     "angular 15",
-    "angular 16"
+    "angular 16",
+    "angular 17"
   ],
   "ngPackage": {
     "lib": {
