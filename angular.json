@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular2-multiselect-dropdown": {
+    "angular2-multiselect-dropdown-demo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/angular2-multiselect-dropdown",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -57,13 +57,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "6kb",
-                  "maximumError": "6kb"
+                  "maximumError": "10kb"
                 }
               ],
               "serviceWorker": true,
@@ -133,7 +133,7 @@
         }
       }
     },
-    "angular2-multiselect-dropdown-lib": {
+    "angular2-multiselect-dropdown": {
       "projectType": "library",
       "root": "projects/angular2-multiselect-dropdown-lib",
       "sourceRoot": "projects/angular2-multiselect-dropdown-lib/src",
