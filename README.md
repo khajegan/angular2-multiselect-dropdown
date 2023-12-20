@@ -1,4 +1,4 @@
-# Angular 2/4/6/8 Multiselect Dropdown - Updated to work with Angular 13
+# Angular Multiselect Dropdown - Updated to work with Angular 14
 [![npm version](https://img.shields.io/npm/v/angular2-multiselect-dropdown.svg)](https://www.npmjs.com/package/angular2-multiselect-dropdown)
 [![downloads](https://img.shields.io/npm/dt/angular2-multiselect-dropdown.svg)](https://www.npmjs.com/package/angular2-multiselect-dropdown)
 [![license](https://img.shields.io/github/license/cuppalabs/angular2-multiselect-dropdown.svg)](https://www.npmjs.com/package/angular2-multiselect-dropdown)
@@ -283,7 +283,7 @@ The following list of settings are supported by the component. Configure the set
     Example : (onFilterDeSelectAll)="onFilterDeSelectAll($event)"
 
 ## Run locally
-- Clone the repository or downlod the .zip,.tar files.
+- Clone the repository or download the .zip,.tar files.
 - Run `npm install`
 - Run `ng serve` for a dev server
 - Navigate to `http://localhost:4200/`
